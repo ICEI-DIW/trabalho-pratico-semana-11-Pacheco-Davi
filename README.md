@@ -4,10 +4,11 @@ Nessa etapa, vamos evoluir o projeto anterior e contemplar um ambiente de desenv
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Davi Pacheco
+- Matricula: 895198
+- Proposta de projeto escolhida: Página de Receitas
+- Breve descrição sobre seu projeto: Página de Receitas com separação de Destaques da semana, Melhores receitas e todas as receitas. Cada card leva a uma página com as descrições específicas das receitas.
+
 
 **Print do teste da API com visualização do JSON**
 
