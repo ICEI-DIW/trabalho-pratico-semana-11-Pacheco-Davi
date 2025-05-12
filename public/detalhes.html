@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Detalhes da Receita</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script defer src="assets/scripts/app.js"></script>
+</head>
+<body onload="carregarDetalheReceita()">
+  <header>
+    <div class="cabeçalho">
+        <h1 id="logo">Davi Receitas</h1>
+        <p id="slogan">O melhor site de receitas da internet!</p>
+    </div>
+    <img id="perfil" src="media/user-image.png" alt="Foto de perfil do Usuário">
+</header>
+  <nav>
+    <div class="menu">
+        <button class="b-left" style="border-radius: 40px 0 0 40px; margin-left: 30px;"><a href="index.html" style="text-decoration: none; color: #333a47;">Home</a></button>
+        <button class="b-left">Categorias</button>
+        <button class="b-left">Notícias Culinárias</button>
+        <button class="b-left">Envie sua própria receita!</button>
+        <button class="b-left" style="border-radius: 0 40px 40px 0;">Fale Conosco</button>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">▼</button>
+        <div class="dropdown-content">
+            <button class="b-left"><a href="index.html" style="text-decoration: none; color: #333a47;">Home</a></button>
+            <button class="b-left">Categorias</button>
+            <button class="b-left">Notícias Culinárias</button>
+            <button class="b-left">Envie sua própria receita!</button>
+            <button class="b-left">Fale Conosco</button>
+        </div>
+    </div>
+    <div class="search">
+        <input type="text" placeholder="Todas as receitas" />
+        <button id="lupa"><i class="fas fa-search"></i></button>
+    </div>
+</nav>
+  <main>
+    <div class="container" id="detalhes-receita"></div>
+    <div>
+    <h2 style="text-align: start; margin: 200px 60px 40px 60px;">
+      Ingredientes:
+    </h2>
+    <ul style=" margin: 0 60px;">
+      <li style=" text-align: start;">Ingrediente 1</li>
+      <li style=" text-align: start;">Ingrediente 2</li>
+      <li style=" text-align: start;">Ingrediente 3</li>
+      <li style=" text-align: start;">Ingrediente 4</li>
+      <li style=" text-align: start;">Ingrediente 5</li>
+      <li style=" text-align: start;">Ingrediente 6</li>
+    </ul>
+    <h2 style="text-align: start; margin: 40px 60px 40px 60px;">
+      Modo de Preparo:
+    </h2>
+    <p style=" text-align: start; margin: 0 60px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ut distinctio voluptates, accusantium unde vel. Odit modi fuga a natus dicta, delectus impedit deserunt harum facere, magnam deleniti adipisci doloremque molestiae cupiditate ducimus. Dolorem ratione nobis commodi amet laboriosam voluptas debitis, culpa sint harum veritatis molestias fugit necessitatibus, a ipsam?</p>
+    <h2 style="text-align: start; margin: 40px 60px 40px 60px;">
+      Finalizando:
+    </h2>
+    <p style=" text-align: start; margin: 0 60px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ut distinctio voluptates, accusantium unde vel. Odit modi fuga a natus dicta, delectus impedit deserunt harum facere, magnam deleniti adipisci doloremque molestiae cupiditate ducimus. Dolorem ratione nobis commodi amet laboriosam voluptas debitis, culpa sint harum veritatis molestias fugit necessitatibus, a ipsam?</p>
+  </div>
+  </main>
+  <aside class="ad" style="margin: 50px 0;">
+    <div class="ad-content">
+        <img id="ad" src="assets/media/anuncio.png" alt="ad">
+        <p style="text-align: center;">Anúncio</p>
+    </div>
+</aside>
+</div>
+<footer>
+    <div class="logo">
+        <h1>Davi Receitas</h1>
+    </div>       
+    <div class="redes">
+        <button id="btn-bottom"><i class="fab fa-facebook"></i></button>
+        <button id="btn-bottom"><i class="fab fa-instagram"></i></button>
+        <button id="btn-bottom"><i class="fab fa-youtube"></i></button>
+        <button id="btn-bottom"><i class="fab fa-tiktok"></i></button>
+    </div>
+    <div class="contato">
+        <h3 style="color: #333a47;">Entre em contato Conosco:</h3>
+        <button id="btn-bottom"><i class="fab fa-whatsapp"></i></button>
+        <a href="mailto:davipn119@gmail.com">
+            <button id="btn-bottom2">Enviar E-mail</button>
+        </a>
+    </div>
+</footer>
+<script src="assets/scripts/app.js"></script>
+</body>
+</html>

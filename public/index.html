@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davi Receitas</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="cabeçalho">
+            <h1 id="logo">Davi Receitas</h1>
+            <p id="slogan">O melhor site de receitas da internet!</p>
+        </div>
+        <img id="perfil" src="assets/media/user-image.png" alt="Foto de perfil do Usuário">
+        
+    </header>
+    <nav>
+        <div class="menu">
+            <button class="b-left" style="border-radius: 40px 0 0 40px; margin-left: 30px;"><a href="index.html" style="text-decoration: none; color: #333a47;">Home</a></button>
+            <button class="b-left">Categorias</button>
+            <button class="b-left">Notícias Culinárias</button>
+            <button class="b-left">Envie sua própria receita!</button>
+            <button class="b-left" style="border-radius: 0 40px 40px 0;">Fale Conosco</button>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">▼</button>
+            <div class="dropdown-content">
+                <button class="b-left"><a href="index.html" style="text-decoration: none; color: #333a47;">Home</a></button>
+                <button class="b-left">Categorias</button>
+                <button class="b-left">Notícias Culinárias</button>
+                <button class="b-left">Envie sua própria receita!</button>
+                <button class="b-left">Fale Conosco</button>
+            </div>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Todas as receitas" />
+            <button id="lupa"><i class="fas fa-search"></i></button>
+        </div>
+    </nav>
+<div class="conteudo">
+    <main>
+        <h1 style="margin-bottom: 40px;">Destaques da Semana</h1>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div id="destaques-container" class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img  style="height: 500px; width: auto;" src="assets/media/torta-de-limao.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Torta de Limão</h5>
+                  <p>O pessoal está adorando essa!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/media/bolo-de-cenoura.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/media/torta-de-maracuja.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/media/pave.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <hr>
+        <h1 style="text-align: center; color: #bb3b17;">Melhores receitas</h1>
+        <p style="text-align: center;">As receitas com as melhores avaliações!</p>
+        <section class="melhores" id="melhores-container">
+            <article>
+                <img src="https://picsum.photos/300/200?random=2" alt="Melhor receita">
+                <h3>Melhor receita 1</h3>
+                <p>Lorem ipsum dolor sit amet</p>
+            </article>
+            <article>
+                <img src="https://picsum.photos/300/200?random=2" alt="Melhor receita">
+                <h3>Melhor receita 2</h3>
+                <p>Lorem ipsum dolor sit amet</p>
+            </article>
+            <article>
+                <img src="https://picsum.photos/300/200?random=2" alt="Melhor receita">
+                <h3>Melhor receita 3</h3>
+                <p>Lorem ipsum dolor sit amet</p>
+            </article>
+        </section>
+        <hr>
+        <h1 style="text-align: center; color: #bb3b17">Todas as receitas</h1>
+        <section class="todas" id="todas-container">
+        </section>
+        <button class="mais" id="btn-mais-receitas">Mais receitas</button>
+    </main>
+    <aside class="ad">
+        <div class="ad-content">
+            <img id="ad" src="assets/media/anuncio.png" alt="ad">
+            <p style="text-align: center;">Anúncio</p>
+        </div>
+    </aside>
+</div>
+    <footer style="background-color: #d3d3d3;">
+        <div class="logo">
+            <h1>Davi Receitas</h1>
+        </div>       
+        <div class="redes">
+            <button id="btn-bottom"><i class="fab fa-facebook"></i></button>
+            <button id="btn-bottom"><i class="fab fa-instagram"></i></button>
+            <button id="btn-bottom"><i class="fab fa-youtube"></i></button>
+            <button id="btn-bottom"><i class="fab fa-tiktok"></i></button>
+        </div>
+        <div class="contato">
+            <h4 style="color: #333a47;">Informações do Aluno</h4>
+            <p>Código de Pessoa: 895198</p>
+            <button id="btn-bottom"><i class="fab fa-whatsapp"></i></button>
+            <a href="mailto:davipn119@gmail.com">
+                <button id="btn-bottom2">Enviar E-mail</button>
+            </a>
+        </div>
+    </footer>
+    <script src="assets/scripts/app.js"></script>
+</body>
+</html>

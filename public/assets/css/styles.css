@@ -1,0 +1,267 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: content-box;
+    text-align: center;
+}
+
+img {
+    max-width: 99%;
+}
+h1 {
+    color: #bb3b17;
+}
+h1,h2,h3,h4,h5,p {
+    margin: 15px;  
+}
+article {
+    margin: 30px;
+    transition: 300ms;
+    cursor: pointer;
+}
+article:hover {
+    transform: scale(1.05);
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef1f1;
+}
+header {
+    color: #333a47;
+    background-color: #eef1f1;
+}
+.cabeçalho {
+    width: 100%;
+}
+#logo {
+    padding: 20px;
+    font-size: 50px;
+    height: fit-content;
+    color: #bb3b17;
+    margin: 0px;
+}
+#slogan{
+    max-width: 250px;
+    float: left;
+    font-size: 20px;
+    padding: 30px 0;
+    height: fit-content;
+    margin: 0px;
+}
+#perfil {
+    border-radius: 100% 100%;
+    margin: 20px;
+}
+nav {
+    background-color: #ff944e;
+    display: flex;
+    padding: 20px;
+}
+.dropbtn {
+    background-color: #ff944e;
+    color: #eef1f1;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #eef1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #bb3b17;
+}
+.dropdown-content a:hover {
+    background-color: #eef1f1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    font-size: 30px;
+}
+.menu {
+    display: none;
+}
+.b-left {
+    font-weight: bold;
+    padding: 15px 15px;
+    margin: 0px 0px;
+    color: #333a47;
+    font-size: 16px;
+    background-color: #eef1f1;
+    cursor: pointer;
+    transition: 200ms;
+}
+.b-left:hover {
+    transform: scale(1.05);
+}
+.search {
+    position: absolute;
+    right: 50px;
+    height: 40px;
+    display: flex;
+    width: 200px;
+    margin: 5px;
+    background: white;
+    border-radius: 50px;
+    padding-left: 40px;
+}
+.search input {
+    width: 180px;
+    text-align: start;
+    border: none;
+    font-size: 14px;
+    color: #666;
+}
+
+.search button {
+    background: #bb3b17;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 0 50px 50px 0;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#lupa:hover {
+    transform: scale(1.05);
+}
+main {
+    background-color: white;
+    padding-top: 60px;
+}
+.card {
+    position: relative;
+}
+.fundo {
+    min-width: 85%;
+    margin-bottom: 20px;
+}
+.foto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 80px;
+    border-radius: 100px;
+}
+.tittle-main {
+    margin-bottom: 40px;
+}
+.mais {
+    margin: 10px;
+    color: #333a47;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 100px;
+    border: #eef1f1;
+    cursor: pointer;
+    transition: 200ms;
+}
+.mais:hover {
+    transform: scale(1.05);
+}
+hr {
+    color: #333a47;
+}
+.todas article:nth-child(n+4) {
+    display: none;
+}
+.todas.mostrar-todas article {
+    display: block !important;
+}
+
+#ad {
+    width: 80%;
+}
+#btn-bottom {
+    background: #bb3b17;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 50px;
+}
+#btn-bottom:hover {
+    transform: scale(1.05);
+}
+.logo {
+    font-size: 24px;
+    color: #bb3b17;
+}
+#btn-bottom2 {
+    background: #bb3b17;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 200px;
+}
+#btn-bottom2:hover {
+    transform: scale(1.05);
+}
+@media (min-width: 768px) {
+    header {
+        display: flex
+    }
+    .cabeçalho {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+    nav {
+        display: flex;
+    }
+    .menu{
+        display: contents;
+    }
+    .dropdown{
+        display: none;
+    }
+    section {
+        display: grid;
+    }
+    .destaques {
+        grid-template-columns: 1fr 1fr;
+    }
+    .fundo {
+        min-width: 100%;
+    }
+    .foto {
+        top: 60%;
+    }
+    .melhores, .todas {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    footer {
+        padding: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 8%;
+    }
+    .redes {
+        align-content: center;
+    }
+}
