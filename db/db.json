@@ -14,5 +14,66 @@
       "nome": "Usuario Comum",
       "email": "user@abc.com"
     }
-  ]
-}
+  ],
+  "receitas": [
+    {
+      "id": "001",
+      "titulo": "Bolo de Cenoura",
+      "descricao": "Um clássico da culinária brasileira.",
+      "imagem": "assets/media/bolo-de-cenoura.png",
+      "autor": "Maria",
+      "ingredientes": ["xyz"],
+      "modoPreparo": ["ABC"],
+      "categorias": ["destaques", "melhores", "todas"]
+    },
+    {
+      "id": "002",
+      "titulo": "Lasanha Vegana",
+      "descricao": "Receita deliciosa e sem ingredientes de origem animal.",
+      "imagem": "assets/media/lasanha-vegana.png",
+      "autor": "João",
+      "ingredientes": ["xyz"],
+      "modoPreparo": ["ABC"],
+      "categorias": ["melhores", "todas"]
+    },
+    {
+      "id": "003",
+      "titulo": "Torta de Limão",
+      "descricao": "Sobremesa perfeita para dias quentes.",
+      "imagem": "assets/media/torta-de-limao.png",
+      "autor": "Ana",
+      "ingredientes": ["xyz"],
+      "modoPreparo": ["ABC"],
+      "categorias": ["destaques", "todas"]
+    },
+    {
+      "id": "004",
+      "titulo": "Torta de Maracujá",
+      "descricao": "Sobremesa tropical deliciosa",
+      "imagem": "assets/media/torta-de-maracuja.png",
+      "autor": "Antonio",
+      "ingredientes": ["xyz"],
+      "modoPreparo": ["ABC"],
+      "categorias": ["destaques", "todas"]
+    },
+    {
+      "id": "005",
+      "titulo": "Pavê de Biscoito Champanhe",
+      "descricao": "Um doce chique e fácil",
+      "imagem": "assets/media/pave.png",
+      "autor": "Fátima",
+      "ingredientes": ["xyz"],
+      "modoPreparo": ["ABC"],
+      "categorias": ["destaques", "todas"]
+    },
+    {
+      "id": "006",
+      "titulo": "Pão Caseiro",
+      "descricao": "É sempre bom saber o básico da cozinha",
+      "imagem": "assets/media/pao-caseiro.png",
+      "autor": "Joana",
+      "ingredientes": ["xyz"],
+      "modoPreparo": ["ABC"],
+      "categorias": ["melhores", "todas"]
+    }
+  ]}
